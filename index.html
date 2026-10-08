@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .hero {
+      margin-top: 100px;
+    }
+  </style>
+
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-warning py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-cup-hot-fill"></i> kopi klontong</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservasi">reservasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lokasi">lokasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="bg-black my-4">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md">
+              <h1 class="text-warning">Kopi Klontong</h1>
+              <p class="text-white">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam sint officia explicabo a assumenda molestias, veniam
+                nemo ab hic voluptas praesentium iste natus quas voluptatibus.
+                Reiciendis rem harum et tempora. <br />
+                <a
+                  type="button"
+                  class="btn mt-5 btn-outline-warning"
+                  href="#reservasi"
+                >
+                  pesan meja
+                </a>
+                <a href="#menu" type="button" class="btn btn-warning mt-5">
+                  lihat menu
+                </a>
+              </p>
+            </div>
+            <div class="col-md">
+              <img
+                src="https://asset.kompas.com/crops/w0WyOsPoZfGCqhCFEWxZVWz1-SY=/0x0:4896x3264/1200x800/data/photo/2021/02/28/603b7ef0aec9a.jpg"
+                class="w-100 rounded-4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container py-4">
+        <h4 class="text-warning text-center pt-5">ABOUT US</h4>
+        <h2 class="text-center text-white fs-1 fw-bold py-3">
+          Lorem ipsum dolor sit amet.
+        </h2>
+
+        <div class="row justify-content-center py-4">
+          <div class="col-8 text-white text-center">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut enim
+              ipsum culpa pariatur voluptas distinctio possimus temporibus
+              architecto cum et quod eligendi exercitationem, officia
+              reprehenderit.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+              illum, dignissimos nihil molestiae labore saepe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="menu py4">
+        <div class="py-3">
+          <h4 class="text-warning text-center py-4 mt-5">Rekomendasi Menu</h4>
+          <div class="bg-black py-4">
+            <div class="container">
+              <h2 class="text-center text-white py-4">Menu Pilihan</h2>
+
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img
+                      src="https://tse3.mm.bing.net/th/id/OIP.oFklGhB29JkqjT23QQEVWAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="fw-bold d-flex justify-content-between">
+                        <h4>kopi hitam</h4>
+                        Rp.20.000
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur error necessitatibus fuga nulla, sunt rerum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img
+                      src="https://coffeeaddictmama.com/wp-content/uploads/2023/04/perfect-heart-latte-1024x1024.jpg"
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="fw-bold d-flex justify-content-between">
+                        <h4>capucinno</h4>
+                        Rp.25.000
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur error necessitatibus fuga nulla, sunt rerum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSt4xT6z4f6VSPMnCp68bcejRvi0XDk-yeRXJ37i1BAw&s=10"
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="fw-bold d-flex justify-content-between">
+                        <h4>matcha latte</h4>
+                        Rp.23.000
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur error necessitatibus fuga nulla, sunt rerum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgu9aYOAb_WLecNfpUE9ZRHwmfo02_Byz6idXdynQR4A&s=10"
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="fw-bold d-flex justify-content-between">
+                        <h4>sourdough</h4>
+                        Rp.30.000
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur error necessitatibus fuga nulla, sunt rerum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1KR4XEkqHeIhkBXUQa6rszDEGxQXcYdh4yjS87ViF-A&s=10"
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="fw-bold d-flex justify-content-between">
+                        <h4>croissant</h4>
+                        Rp.20.000
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur error necessitatibus fuga nulla, sunt rerum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMrnpTX2bmHf5yE-Re2vow2zwi4kBWxadmK8jsuS5VeQ&s=10"
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="fw-bold d-flex justify-content-between">
+                        <h4>donut</h4>
+                        Rp.10.000
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur error necessitatibus fuga nulla, sunt rerum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservasi" id="reservasi">
+      <div class="container text-center pt-5 mt-5">
+        <h4 class="text-warning mb-3">RESERVASI MEJA</h4>
+        <h2 class="text-white my-2">Amankan tempat favorit anda</h2>
+        <p class="text-white my-2">isi form untuk melakukan reservasi</p>
+        <br />
+
+        <div class="row justify-content-center">
+          <div class="col-md-6 bg-black rounded-4 p-5 border border-warning">
+            <form>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label text-warning"
+                  >masukkan nama anda</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput2"
+                  class="form-label text-warning"
+                  >masukkan nomer telfon anda</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleFormControlInput2"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput3"
+                  class="form-label text-warning"
+                  >tanggal & waktu</label
+                >
+                <input
+                  type="datetime-local"
+                  class="form-control"
+                  id="exampleFormControlInput3"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput4"
+                  class="form-label text-warning"
+                  >jumlah orang</label
+                >
+                <select
+                  class="form-select"
+                  id="exampleFormControlInput4"
+                  aria-label="Default select example"
+                >
+                  <option selected>jumlah orang</option>
+                  <option value="1">1-2 orang</option>
+                  <option value="2">3-4 orang</option>
+                  <option value="3">lebih dari 4 orang</option>
+                </select>
+              </div>
+              <button type="button" class="mt-4 btn btn-outline-warning w-100">
+                pesan sekarang
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lokasi bg-black" id="lokasi">
+      <div class="container">
+        <div class="row py-5 mt-5 d-flex align-items-center">
+          <div class="col-md-4">
+            <h4 class="text-warning">Kopi Klontong</h4>
+            <p class="text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Perspiciatis, illo.
+            </p>
+            <h6 class="text-warning">jam oprasional</h6>
+            <p class="text-white">
+              senin-jumat 08.00-22.00 <br />
+              sabtu-minggu 00.00-23.59
+            </p>
+            <h6 class="text-warning">lokasi</h6>
+            <p class="text-white">
+              Jl. Ring Road Utara, Kaliwaru, Condongcatur, Kec. Depok, Kabupaten
+              Sleman, Daerah Istimewa Yogyakarta 55281
+            </p>
+            <h6 class="text-warning">nomwe whatsapp</h6>
+            <p class="text-white">0888-8888-8888.</p>
+          </div>
+          <div class="col-md-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.293147812693!2d110.39657527412!3d-7.758702176940614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59a17e4e49eb%3A0xa864a4f7fe95e090!2sPakuwon%20Mall%20Jogja!5e0!3m2!1sid!2sid!4v1791439672003!5m2!1sid!2sid"
+              width="100%"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="bg-warning py-4 text-dark">
+        <div class="container text-center">
+          <h6><i class="bi bi-c-circle"></i> 2026 | made by z.akmal</h6>
+        </div>
+      </div>
+    </section>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
